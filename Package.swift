@@ -15,7 +15,7 @@ let package = Package(
             name: "SegmentFirebase",
             dependencies: [
               "Segment",
-              .product(name: "FirebaseAnalytics", package: "Firebase")
+              .product(name: "FirebaseAnalytics", package: "firebase-ios-sdk.git")
             ],
             path: "Segment-Firebase/Classes",
             publicHeadersPath: ""
