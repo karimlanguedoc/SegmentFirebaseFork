@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "SegmentFirebase",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v13)],
     products: [.library(name: "SegmentFirebase", targets: ["SegmentFirebase"])],
     dependencies: [
       .package(name: "Segment", url: "https://github.com/segmentio/analytics-swift.git", from: "1.7.3"),
